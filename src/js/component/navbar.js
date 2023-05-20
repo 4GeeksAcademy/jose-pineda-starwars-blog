@@ -32,7 +32,7 @@ export const NavbarMenu = () => {
         <DropdownButton
           id="dropdown-basic-button"
           title={`Favorites (${store.favorites.length})`}
-          className="favorites-dropdown" // Added CSS class name
+          className="favorites-dropdown"
         >
           {store.favorites.map((item, index) => (
             <Dropdown.Item key={index}>
